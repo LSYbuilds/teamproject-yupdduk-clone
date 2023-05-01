@@ -1,0 +1,194 @@
+@charset "utf-8";
+
+.header .inner {
+  display: flex;
+}
+
+.header .logo {
+}
+
+.header .logo > a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.header .logo > a > img {
+  width: 145px;
+}
+
+.header-menu {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 145px);
+}
+
+.header-menu > .social {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 30px;
+  padding-right: 55px;
+  padding-top: 6px;
+}
+
+.social > .sns-link {
+  margin-right: 8px;
+  display: flex;
+  height: 100%;
+}
+.sns-link > li {
+  margin-right: 10px;
+}
+
+.sns-link > li > a {
+  display: block;
+}
+.sns-link > li > a > img {
+  width: 24px;
+  height: 24px;
+}
+
+.account-box {
+  display: flex;
+  height: 100%;
+}
+
+.account-box > li {
+  position: relative;
+  margin-right: 10px;
+}
+
+.account-box > li > a {
+  display: block;
+  line-height: 20.16px;
+  color: rgba(140, 98, 57);
+  font-weight: 300;
+  font-size: 13.44px;
+  padding: 0px 10px;
+}
+
+.account-box > li > a:first-child {
+  padding-left: 5px;
+}
+
+.account-box > li:last-child {
+  margin-right: 0;
+}
+
+.account-box > li:first-child::after {
+  display: block;
+  position: absolute;
+  right: -5px;
+  top: 5px;
+  content: "";
+  width: 1px;
+  height: 13.44px;
+  background-color: #191919;
+}
+
+.header-menu > .nav-area {
+  width: 100%;
+  height: calc(100% - 30px);
+  box-sizing: border-box;
+  padding-left: 60px;
+}
+
+.main-menu {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.main-menu > li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 130px;
+}
+
+.main-menu > li > a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 19.2px;
+  font-family: 500;
+}
+
+.nav > li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 130px;
+}
+
+.nav > li > a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 19.2px;
+  font-weight: 500;
+}
+
+.gift-card > span {
+  background-color: #faebd7;
+  padding: 5px 10px 5px 10px;
+  border-radius: 8px;
+  color: firebrick;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.gift-card > span > img {
+  height: 23px;
+  margin-right: 5px;
+  margin-top: -6px;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  top: 120px;
+  left: 0px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.sub-menu .inner {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 auto;
+  max-width: 1140px;
+  height: 190px;
+  padding-left: 205px;
+}
+
+.sub-menu-list {
+  display: flex;
+  flex-direction: column;
+  width: 130px;
+  height: 100%;
+}
+.sub-menu-list > li > a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 14.4px;
+  line-height: 21.6px;
+  padding-top: 12px;
+  color: #fff;
+}
+
+@media screen and(max-width:1200px) {
+}
+
+@media screen and(max-width:992px) {
+}
+
+@media screen and(max-width:768px) {
+}
+
+@media screen and(max-width:576px) {
+}
