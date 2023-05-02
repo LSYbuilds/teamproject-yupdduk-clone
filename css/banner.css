@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.banner .inner {
+    max-width: 1903px;
+    height:390px;
+    background:#DDCFBD;
+}
+.banner-appbanner > img {
+    margin: auto;
+    display: block;
+    height:390px;
+    width: 1500px;
+}
