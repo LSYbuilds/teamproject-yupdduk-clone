@@ -48,6 +48,6 @@
   position: absolute;
   text-align: center;
   z-index: 999;
-  right: 10px;
   bottom: 10px;
+  background-color: rgb(216, 175, 175);
 }

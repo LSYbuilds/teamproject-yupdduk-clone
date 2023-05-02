@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+.notice > .inner {
+  margin: 0 auto;
+  max-width: 1140px;
+  height: 246px;
+  background: green;
+}
+
+.notice > .inner > div {
+  float: left;
+}
+
+.notice-left {
+  width: 50%;
+  height: 100%;
+  background: blue;
+}
+
+.notice-right {
+  width: 50%;
+  height: 100%;
+  background: pink;
+}
