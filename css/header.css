@@ -20,8 +20,7 @@
 }
 
 .header-menu {
-  display: flex;
-  flex-direction: column;
+  display: none;
   width: calc(100% - 145px);
 }
 
@@ -181,7 +180,15 @@
   color: #fff;
 }
 
+.mobile-header-menu {
+  width: calc(100% - 145px);
+  background-color: skyblue;
+}
+
 @media screen and(max-width:1200px) {
+  .header > .inner {
+    max-width: 960px;
+  }
 }
 
 @media screen and(max-width:992px) {

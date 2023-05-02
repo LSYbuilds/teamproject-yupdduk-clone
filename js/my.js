@@ -1,13 +1,12 @@
 $(document).ready(function () {
   $(".nav-area").hover(
-    function()
-    {
-      $('.sub-menu').slideDown(300);
+    function () {
+      $(".sub-menu").slideDown(120);
     },
-    function()
-    {
-      $('.sub-menu').slideUp(300);
-    });
+    function () {
+      $(".sub-menu").slideUp(120);
+    }
+  );
 
   // function header()
   // {
@@ -23,5 +22,3 @@ $(document).ready(function () {
   //   );
   // }
 });
-
-
