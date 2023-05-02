@@ -53,11 +53,7 @@ body {
   width: 100%;
   background: #fff;
 }
-.header > .inner {
-  margin: 0 auto;
-  max-width: 1140px;
-  height: 120px;
-}
+
 
 /* 메인슬라이드 */
 .main-slide {
