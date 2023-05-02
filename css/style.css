@@ -42,7 +42,6 @@ body {
 /* 섹션 */
 #wrap {
   padding-top: 120px;
-  height: 5000px;
 }
 
 .header {
@@ -53,7 +52,6 @@ body {
   width: 100%;
   background: #fff;
 }
-
 
 /* 메인슬라이드 */
 .main-slide {
