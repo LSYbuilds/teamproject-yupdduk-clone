@@ -118,6 +118,7 @@ body {
   filter: brightness(50%);
 }
 .bis-menu {
+  display: inline-block;
   padding: 0 15px;
   height: 557.31px;
 }
@@ -142,6 +143,7 @@ body {
   color: #6c757d;
   letter-spacing: 0.5px;
   line-height: 24px;
+  color: rgb(160, 162, 164);
 }
 .bis-n .bis-button {
   margin: 40px 75.5px;
@@ -240,4 +242,15 @@ body {
   bottom: 0px;
   left: 27%;
   letter-spacing: 0.25px;
+=======
+  color: #ddd;
+  padding: 24px 0;
+  height: 205px.;
+}
+.footer-bottom-i {
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.footer-bottom-Information a {
+  color: #ddd;
 }

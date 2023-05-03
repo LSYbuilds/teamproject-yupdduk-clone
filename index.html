@@ -43,9 +43,30 @@
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/mainslide.css" />
     <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/notice.css" />
+    <link rel="stylesheet" href="./css/quickmenu.css" />
+    <link rel="stylesheet" href="./css/recomenu.css" />
+
   </head>
   <body>
     <!-- 전체틀 -->
+    <div class="quickmenu">
+      <ul class="quickmenu-list">
+        <li><a href="#"> 창업FAQ </a></li>
+        <li>
+          <a href="#">
+            가맹문의
+            <p>(온라인접수)</p>
+          </a>
+        </li>
+        <li>
+          <a href="#"> 고객의 소리 </a>
+        </li>
+        <li>
+          <a href="#"> TOP </a>
+        </li>
+      </ul>
+    </div>
     <div id="wrap">
       <!-- 헤더 -->
       <header class="header">
@@ -152,6 +173,80 @@
               </div>
             </div>
           </div>
+          <div class="mobile-header-menu">
+            <button class="mobile-nav-call">
+              <img
+                src="./images/mobile-menu-img.png"
+                alt="모바일 이미지 버튼"
+              />
+            </button>
+          </div>
+          <div class="mobile-nav-warp">
+            <div class="mobile-nav-bg"></div>
+            <nav class="mobile-nav-menu">
+              <div class="account">
+                <ul class="account-list">
+                  <li><a href="#">로그인</a></li>
+                  <li><a href="#">회원가입</a></li>
+                </ul>
+              </div>
+              <ul class="mobile-nav-list">
+                <li>
+                  <a href="#">핫시즈너</a>
+                  <ul class="mobile-lnb-list">
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="#">BI&CI</a></li>
+                    <li><a href="#">브랜드소개</a></li>
+                    <li><a href="#">오시는길</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">메뉴소개</a>
+                  <ul class="mobile-lnb-list">
+                    <li><a href="#">엽기떡볶이 메뉴</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">가맹문의</a>
+                  <ul class="mobile-lnb-list">
+                    <li><a href="#">인테리어컨셉</a></li>
+                    <li><a href="#">창업절차</a></li>
+                    <li><a href="#">개설비용</a></li>
+                    <li><a href="#">창업FAQ</a></li>
+                    <li><a href="#">가맹문의</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">이벤트</a>
+                  <ul class="mobile-lnb-list">
+                    <li><a href="#">이벤트 & 안내</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">매장정보</a>
+                  <ul class="mobile-lnb-list">
+                    <li><a href="#">엽기떡볶이 매장</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">고객안내</a>
+                  <ul class="mobile-lnb-list">
+                    <li><a href="#">공지사항</a></li>
+                    <li><a href="#">자주하는 질문</a></li>
+                    <li><a href="#">엽기떡볶이 미디어</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="mobile-gift-card">
+                      <img src="./images/GiftCard.png" alt="상품권 이미지" />
+                      상품권
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
       </header>
       <!-- 슬라이드 -->
@@ -200,7 +295,56 @@
       <!-- 공지사항 -->
       <section class="notice">
         <div class="inner">
-            
+          <div class="notice-left">
+            <p>NOTICE</p>
+            <ul class="notice-notice">
+              <li>
+                <span class="notice-notice-list">[23.02.24]</span>
+                엽떡앱 일시적 로그인 불가 안내
+              </li>
+              <li>
+                <span class="notice-notice-list">[23.02.14]</span>
+                [2월 브랜드 퀴즈 이벤트] 당첨자 안내
+              </li>
+              <li>
+                <span class="notice-notice-list">[23.02.07]</span>
+                엽떡앱 [SKT 휴대폰 본인 확인 서비스]일시 중단 안내
+              </li>
+              <li>
+                <span class="notice-notice-list">[23.02.02]</span>
+                엽떡앱 방문포장 할인이벤트 연장
+              </li>
+            </ul>
+            <div class="notice-notice-more">
+              <a href="#">MORE</a>
+              <a href="#"><img src="images/morebtn.png" alt="더보기" /></a>
+            </div>
+          </div>
+          <div class="notice-right">
+            <p>EVENT</p>
+            <ul class="notice-event">
+              <li>
+                <span class="notice-event-list">[22.12.16]</span>
+                [안내] 엽기떡볶이 세트메뉴 리뉴얼 안내
+              </li>
+              <li>
+                <span class="notice-event-list">[22.10.12]</span>
+                [안내] 짜장떡볶이 리뉴얼 출시
+              </li>
+              <li>
+                <span class="notice-event-list">[22.10.07]</span>
+                [안내] 엽기떡볶이 모바일앱 리뉴얼 안내
+              </li>
+              <li>
+                <span class="notice-event-list">[22.08.30]</span>
+                [안내] 2022 올해의 브랜드 대상 수상
+              </li>
+            </ul>
+            <div class="notice-event-more">
+              <a href="#">MORE</a>
+              <a href="#"><img src="images/morebtn.png" alt="더보기" /></a>
+            </div>
+          </div>
         </div>
       </section>
       <!-- 중간베너 -->
@@ -209,7 +353,26 @@
       </section>
       <!-- 추천메뉴 -->
       <section class="reco-menu">
-        <div class="inner"></div>
+        <div class="inner">
+          <div class="reoc-menu-title">
+            <p></p>
+            <p></p>
+          </div>
+          <ul class="reco-menu-list">
+            <li>
+              <div class="reco-menu-inner"></div>
+            </li>
+            <li>
+              <div class="reco-menu-inner"></div>
+            </li>
+            <li>
+              <div class="reco-menu-inner"></div>
+            </li>
+            <li>
+              <div class="reco-menu-inner"></div>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- 비즈니스 -->
       <section class="bis">
@@ -218,6 +381,9 @@
           <div class="bis-title">
             <p>OUR INFORMATION</p>
             <h2>음식의 새로운 문화를 선도하는 브랜드가 되도록 노력하겠습니다.</h2>
+            <h2>
+              음식의 새로운 문화를 선도하는 브랜드가 되도록 노력하겠습니다.
+            </h2>
           </div>
           <!-- 비지니스 메뉴 버튼 -->
           <div class="bis-gnb">
@@ -227,6 +393,10 @@
                   <img src="/images/Location.jpg" alt="로케이션" />
                   <h3>LOCATIONS</h3>
                   <p>매운맛이 그리울때,<br />지금 영업중인 엽기떡볶이 매장을 찾아주세요.</p>
+                  <p>
+                    매운맛이 그리울때,<br />지금 영업중인 엽기떡볶이 매장을
+                    찾아주세요.
+                  </p>
                   <div class="bis-button">
                     <p>READ MORE</p>
                   </div>
@@ -251,6 +421,10 @@
                   <img src="/images/faq.jpg" alt="FaQ" />
                   <h3>FAQ</h3>
                   <p>고객님들께서 많이 하시는 질문입니다.<br />문의전에 참고 부탁드립니다.</p>
+                  <p>
+                    고객님들께서 많이 하시는 질문입니다.<br />문의전에 참고
+                    부탁드립니다.
+                  </p>
                   <div class="bis-button">
                     <p>READ MORE</p>
                   </div>
@@ -280,6 +454,7 @@
               <div class="footer-bottom-Information">
                 <span><a href="#">이용약관</a></span>
                 <span><a href="#"><strong>개인정보처리방침</strong></a></span>
+                <span><a href="#">개인정보처리방침</a></span>
                 <span><a href="#">법적고지</a></span>
                 <span><a href="#">영상정보처리기기운영/관리</a></span>
               </div>
@@ -290,6 +465,11 @@
                 <div class="footer-bottom-company-right">
                   <div class="footer-bottom-company-right-u">회사명:(주)핫시즈너  |  사업자등록번호 : 201-86-13311  |  대표번호 : 070-7710-8592  |  고객센터 : 1661-8514</div>
                   <div class="footer-bottom-company-right-d">본사 : 서울특별시 성동구 성수이로18길 7, HS빌딩 7층</div>
+                  <p>
+                    회사명:(주)핫시즈너 | 사업자등록번호 : 201-86-13311 |
+                    대표번호 : 070-7710-8592 | 고객센터 : 1661-8514 본사 :
+                    서울특별시 성동구 성수이로18길 7, HS빌딩 7층
+                  </p>
                 </div>
               </div>
               <div class="footer-bottom-copyright">
