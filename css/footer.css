@@ -1,0 +1,256 @@
+@charset "utf-8";
+@import url("/css/font.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline-style: none;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+img {
+  vertical-align: middle;
+  border: 0;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 1.3rem;
+  line-height: 1;
+  color: #000;
+  letter-spacing: -0.64px;
+  word-break: keep-all;
+}
+/* 공통클래스 */
+
+/* float 해제 */
+.clearfix::after {
+  display: block;
+  position: relative;
+  content: "";
+  width: 100%;
+  clear: both;
+}
+
+/* 섹션 */
+#wrap {
+  padding-top: 120px;
+}
+
+.header {
+  position: fixed;
+  z-index: 9999;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background: #fff;
+}
+.header > .inner {
+  margin: 0 auto;
+  max-width: 1140px;
+  height: 120px;
+}
+
+/* 메인슬라이드 */
+.main-slide {
+  width: 100%;
+}
+.main-slide > .inner {
+  position: relative;
+  width: 100%;
+  height: 620px;
+}
+#wrap {
+  padding-top: 120px;
+}
+
+/* 비지니스 */
+.bis {
+  height: 850.59px;
+  padding: 72px 0;
+  text-align: center;
+}
+.bis .inner {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+  max-width: 1400px;
+  width: 100%;
+  height: 686.59px;
+  position: relative;
+}
+.bis-title > p {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+.bis-title > h2 {
+  font-size: 14.4px;
+  margin-bottom: 48px;
+  color: rgb(160, 162, 164);
+}
+.bis-gnb {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+}
+.bis-gnb > a:hover {
+  transition: all 1s;
+  border: 1px solid #000;
+  box-shadow: 0 15px 25px 0 #ddd;
+  box-sizing: border-box;
+}
+.bis-gnb > a:hover .bis-button {
+  transition: all 1s;
+  background: #000;
+  color: #fff;
+}
+.bis-gnb > a:hover img {
+  transition: all 1s;
+  filter: brightness(50%);
+}
+.bis-menu {
+  display: inline-block;
+  padding: 0 15px;
+  height: 557.31px;
+}
+.bis-n {
+  width: 410px;
+  height: 491.31px;
+  margin: 24px auto 0;
+}
+.bis-n > img {
+  width: 100%;
+  height: 270px;
+}
+.bis-n > h3 {
+  font-size: 25.6px;
+  margin-bottom: 24px;
+  padding-top: 35px;
+}
+.bis-n > p {
+  font-size: 16px;
+  margin-bottom: 16px;
+  font-weight: 300;
+  color: #6c757d;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  color: rgb(160, 162, 164);
+}
+.bis-n .bis-button {
+  margin: 40px 75.5px;
+  padding: 10px;
+  border: 1px solid rgb(160, 162, 164);
+}
+.bis-button p {
+  font-size: 14.4px;
+  height: 15px;
+  width: 100%;
+  border: none;
+}
+/* 하단 */
+.footer {
+  font-size: 16px;
+}
+.footer-top {
+  background: #333;
+  padding: 0px 15px;
+  width: 100%;
+  position: relative;
+}
+.footer-top-i {
+  margin: 0 auto;
+  text-align: center;
+  list-style: none;
+}
+.footer-top img {
+  display: inline-block;
+  max-height: 81px;
+}
+.footer-bottom {
+  background: #212529;
+  color: rgb(102, 102, 102);
+  padding: 24px 0;
+  height: 205px;
+  font-size: 16px;
+}
+.footer-bottom-i {
+  display: block;
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 1140px;
+  height: 139.09px;
+}
+.footer-bottom-Information {
+  height: 24px;
+  text-align: center;
+}
+.footer-bottom-Information a {
+  color: rgb(102, 102, 102);
+  padding: 0 15px;
+  font-weight: 400;
+}
+.footer-bottom-Information strong {
+  color: #fff;
+  font-weight: 600;
+}
+.footer-bottom-company {
+  margin: 0 15px;
+  height: 69.09px;
+  display: flex;
+}
+.footer-bottom-company-left {
+  width: 180px;
+  padding: 0 15px;
+  float: left;
+}
+.footer-bottom-company-left img {
+  height: 67.09px;
+  opacity: 0.4;
+}
+.footer-bottom-company-right {
+  padding: 0 15px;
+  width: 900px;
+  text-align: bottom;
+  position: relative;
+}
+.footer-bottom-company-right-u {
+  margin-top: 15px;
+  position: absolute;
+  bottom: 25px;
+}
+.footer-bottom-company-right-d {
+  position: absolute;
+  bottom: 0px;
+}
+.footer-bottom-copyright {
+  width: 1110px;
+  height: 48px;
+  position: relative;
+}
+.footer-bottom-copyright p {
+  color: #4c4c4c;
+  position: absolute;
+  bottom: 0px;
+  left: 27%;
+  letter-spacing: 0.25px;
+=======
+  color: #ddd;
+  padding: 24px 0;
+  height: 205px.;
+}
+.footer-bottom-i {
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.footer-bottom-Information a {
+  color: #ddd;
+}
