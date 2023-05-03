@@ -1,4 +1,10 @@
 $(document).ready(function () {
+  $("a").click(function (event) {
+    event.preventDefault();
+    var target = $($(this).attr("href"));
+    $("html, body").animate({ scrollTop: target.offset().top }, 500);
+  });
+
   $(".nav-area").hover(
     function () {
       $(".sub-menu").slideDown(120);
@@ -20,5 +26,9 @@ $(document).ready(function () {
   mnl.on("click", function () {
     let mnls = $(this).index();
     mll.eq(mnls).slideToggle(300);
+  });
+  let scroll_top = $(".scroll-top-btn");
+  scroll_top.on("click", function () {
+    $("html, body").animate({ scrollTop: 0 }, 500);
   });
 });

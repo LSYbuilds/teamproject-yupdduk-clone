@@ -179,6 +179,11 @@
   line-height: 21.6px;
   padding-top: 12px;
   color: #fff;
+  transition-duration: 0.1s;
+}
+.sub-menu-list > li > a:hover {
+  color: rgb(255, 215, 0);
+  font-size: 15px;
 }
 
 .mobile-header-menu {
