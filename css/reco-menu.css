@@ -1,90 +1,128 @@
 @charset "utf-8";
 
-.reco-menu .inner{
-    margin:0 auto;
-    max-width:1903px;
-    height:855px;
-    
-    background: url(/images/menu-background.jpg) no-repeat center;
+.reco-menu .inner {
+  margin: 0 auto;
+  max-width: 1903px;
+  height: 855px;
 
+  background: url(/images/menu-background.jpg) no-repeat center;
 }
-.reco-menu-title{
-    text-align: center;
-    padding:90px;
+.reco-menu-title {
+  text-align: center;
+  padding: 90px;
 }
-.reco-menu-title p:first-child{
-    font-size: 2.4rem;
-    font-weight: 400;
-    color: #fff;
+.reco-menu-title p:first-child {
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: #fff;
 }
-.reco-menu-title p:last-child{
-    font-size: 1.2rem;
-    font-weight: 300;
-    padding-top: 21px;
-    color: #fff;
-    opacity: 0.8;
+.reco-menu-title p:last-child {
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding-top: 21px;
+  color: #fff;
+  opacity: 0.8;
 }
-.reco-menu-list{
-    display:flex;
-    justify-content: space-between;
-    width: 1400px;
-    height: 430px;
-    margin:0 auto;
-}
-
-.reco-menu-list > li{
-    width:322px;
-    height:100%;
-    background: #fff;
-    padding: 0px 14px;
-
+.reco-menu-list {
+  display: flex;
+  justify-content: space-between;
+  width: 1400px;
+  height: 430px;
+  margin: 0 auto;
 }
 
-.reco-menu-inner{
-    width: 100%;
-    height: 100%;
+.reco-menu-list > li {
+  width: 322px;
+  height: 100%;
+  background: #fff;
 }
 
-.reco-menu-list > li:first-child > div{
-    background:url(/images/yupdduk.png) no-repeat;
-    background-position: center bottom;
-    background-size: 335px;
+.reco-menu-inner {
+  width: 100%;
+  height: 100%;
 }
-.reco-menu-innerbox{
-    text-align: center;
+.reco-menu-list li:hover {
+  width: 322px;
+  height: 100%;
+  background: red;
 }
-.reco-menu-innerbox p:first-child{
-    font-size: 1.8rem;
-    font-weight: 400;
-    padding-top: 3rem;
-    padding-bottom: 1rem;
-    color: #8c6239;
-    font-weight: 600;
+
+.reco-menu-list > li:first-child > div {
+  background: url(/images/yupdduk.png) no-repeat;
+  background-position: center bottom;
+  background-size: 335px;
 }
-.reco-menu-innerbox p:nth-child(2){
-    margin: 5px 0 20px 0;
-    color: #666;
+.reco-menu-innerbox {
+  text-align: center;
 }
-.reco-menu-innerbox a{
-    font-size: 0.84rem;
-    font-weight: 300;
-    background:#ccc;
-    color:#fff;
-    border-radius: 30px;
-    padding: 1px 6px;
+.reco-menu-list
+  li:hover
+  > .reco-menu-inner
+  > .reco-menu-innerbox
+  > p:first-child {
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  color: #fff;
+  font-weight: 600;
+  transform: translateY(10px);
 }
-.reco-menu-list > li:nth-child(2) > div{
-    background:url(/images/side.png) no-repeat;
-    background-position: center bottom;
-    background-size: 335px;
+.reco-menu-innerbox p:first-child {
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  color: #8c6239;
+  font-weight: 600;
+  transition: all 0.7s ease-out;
 }
-.reco-menu-list > li:nth-child(3) > div{
-    background:url(/images/topping.png) no-repeat;
-    background-position: center bottom;
-    background-size: 335px;
+.reco-menu-list
+  li:hover
+  > .reco-menu-inner
+  > .reco-menu-innerbox
+  > p:nth-child(2) {
+  margin: 5px 0 15px 0;
+  color: #fff;
+  transform: translateY(10px);
 }
-.reco-menu-list > li:last-child > div{
-    background:url(/images/set.png) no-repeat;
-    background-position: center bottom;
-    background-size: 335px;
+.reco-menu-innerbox p:nth-child(2) {
+  margin: 5px 0 15px 0;
+  color: #666;
+  transition: all 0.7s ease-out;
+}
+.reco-menu-list li:hover > .reco-menu-inner > .reco-menu-innerbox a {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 300;
+  background: #d8b166;
+  color: #fff;
+  border-radius: 30px;
+  padding: 5px 10px;
+  transform: translateY(10px);
+}
+.reco-menu-innerbox a {
+  display: inline-block;
+  font-size: 0.84rem;
+  font-weight: 300;
+  background: #ccc;
+  color: #fff;
+  border-radius: 30px;
+  padding: 5px 10px;
+  transition: all 0.7s ease-out;
+}
+.reco-menu-list > li:nth-child(2) > div {
+  background: url(/images/side.png) no-repeat;
+  background-position: center bottom;
+  background-size: 335px;
+}
+.reco-menu-list > li:nth-child(3) > div {
+  background: url(/images/topping.png) no-repeat;
+  background-position: center bottom;
+  background-size: 335px;
+}
+.reco-menu-list > li:last-child > div {
+  background: url(/images/set.png) no-repeat;
+  background-position: center bottom;
+  background-size: 335px;
 }
