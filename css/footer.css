@@ -97,6 +97,7 @@ body {
   color: rgb(160, 162, 164);
 }
 .bis-gnb {
+  width: auto;
   display: flex;
   justify-content: space-between;
   position: absolute;
@@ -114,6 +115,7 @@ body {
 }
 .bis-gnb > a:hover img {
   transition: all 1s;
+  filter: brightness(50%);
 }
 .bis-menu {
   display: inline-block;
@@ -121,6 +123,8 @@ body {
   height: 557.31px;
 }
 .bis-n {
+  width: 410px;
+  height: 491.31px;
   margin: 24px auto 0;
 }
 .bis-n > img {
@@ -135,6 +139,10 @@ body {
 .bis-n > p {
   font-size: 16px;
   margin-bottom: 16px;
+  font-weight: 300;
+  color: #6c757d;
+  letter-spacing: 0.5px;
+  line-height: 24px;
   color: rgb(160, 162, 164);
 }
 .bis-n .bis-button {
@@ -149,6 +157,9 @@ body {
   border: none;
 }
 /* 하단 */
+.footer {
+  font-size: 16px;
+}
 .footer-top {
   background: #333;
   padding: 0px 15px;
@@ -166,6 +177,72 @@ body {
 }
 .footer-bottom {
   background: #212529;
+  color: rgb(102, 102, 102);
+  padding: 24px 0;
+  height: 205px;
+  font-size: 16px;
+}
+.footer-bottom-i {
+  display: block;
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 1140px;
+  height: 139.09px;
+}
+.footer-bottom-Information {
+  height: 24px;
+  text-align: center;
+}
+.footer-bottom-Information a {
+  color: rgb(102, 102, 102);
+  padding: 0 15px;
+  font-weight: 400;
+}
+.footer-bottom-Information strong {
+  color: #fff;
+  font-weight: 600;
+}
+.footer-bottom-company {
+  margin: 0 15px;
+  height: 69.09px;
+  display: flex;
+}
+.footer-bottom-company-left {
+  width: 180px;
+  padding: 0 15px;
+  float: left;
+}
+.footer-bottom-company-left img {
+  height: 67.09px;
+  opacity: 0.4;
+}
+.footer-bottom-company-right {
+  padding: 0 15px;
+  width: 900px;
+  text-align: bottom;
+  position: relative;
+}
+.footer-bottom-company-right-u {
+  margin-top: 15px;
+  position: absolute;
+  bottom: 25px;
+}
+.footer-bottom-company-right-d {
+  position: absolute;
+  bottom: 0px;
+}
+.footer-bottom-copyright {
+  width: 1110px;
+  height: 48px;
+  position: relative;
+}
+.footer-bottom-copyright p {
+  color: #4c4c4c;
+  position: absolute;
+  bottom: 0px;
+  left: 27%;
+  letter-spacing: 0.25px;
+=======
   color: #ddd;
   padding: 24px 0;
   height: 205px.;
