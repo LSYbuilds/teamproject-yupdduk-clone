@@ -1,13 +1,77 @@
 @charset "utf-8";
 
 .banner .inner {
-    max-width: 1903px;
-    height:390px;
-    background:#DDCFBD;
+  max-width: 1903px;
+  height: 390px;
+  background: #ddcfbd;
 }
 .banner-appbanner > img {
-    margin: auto;
     display: block;
-    height:390px;
-    width: 1500px;
+  margin: 0 auto;
+  
+  height: 390px;
+  width: 1500px;
+}
+.banner-mobliebanner{
+    display:none;
+}
+@media screen and (max-width: 1600px) {
+    .banner .inner{
+        height:260px;
+    }
+  .banner-appbanner{
+    height: 260px;
+  }
+  .banner-appbanner > img{
+    display: block;
+    margin:auto;
+    max-width:1100px;
+    width:100%;
+    height: 260px;
+    
+  }
+  .banner-mobliebanner{
+    display:none;
+  }
+}
+
+@media screen and (max-width:992px) {
+
+}
+
+@media screen and (max-width:768px) {
+    .banner .inner{
+        height:200px;
+    }
+    .banner-appbanner{
+        display:none;
+    }
+    .banner-mobliebanner{
+        position: relative;
+        display: block;
+        
+        max-width:1000px;
+        width:100%;
+        height: 200px;
+    }
+    .banner-mobliebanner img{
+        width:100%;
+        height: 200px;
+    }
+    .banner-mobliebanner a{
+        
+        position: absolute;
+        bottom: 50px;
+        left: 32%;
+        width: 70px;
+        height:25px;
+    }
+    .banner-mobliebanner a img{
+       
+        width: 70px;
+        height:25px;
+    }
+}
+
+@media screen and (max-width:576px) {
 }
