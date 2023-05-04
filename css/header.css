@@ -347,10 +347,27 @@
   }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 990px) {
+  .header > .inner {
+    max-width: 720px !important;
+  }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 770px) {
+  .header {
+    height: auto;
+  }
+  .header > .inner {
+    max-width: 540px !important;
+    height: 57px;
+  }
+  .header .logo > a {
+    margin-right: 16px;
+  }
+  .header .logo > a > img {
+    width: 80px;
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 576px) {
