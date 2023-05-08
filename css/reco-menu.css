@@ -282,7 +282,7 @@
   }
   @media screen and (max-width: 400px) {
     .reco-menu-mini-gnb button {
-      display: none.g;
+      display: none;
     }
   }
 }
