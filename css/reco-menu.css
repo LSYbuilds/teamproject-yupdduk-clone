@@ -261,18 +261,17 @@
     height: 369.13px;
   }
   .reco-menu-mini-gnb{
-    width: 515px;
+    width: 100%;
     height: 378.98px;
     display: flex;
-    margin: 0 auto;
   }
   .reco-menu-evant {
-    width: 555px;
+    width: 100%;
     height: 300px;
   }
   .reco-menu-mini-gnb img {
-    width: 176.95px;
-    height: 176.95px;
+    width: 100%;
+    height: 100%;
   }
   .reco-menu-mini-gnb button {
     bottom: 54%;
@@ -280,5 +279,10 @@
     font-size: 13px;
     width: 50px;
     height: 50px;
+  }
+  @media screen and (max-width: 400px) {
+    .reco-menu-mini-gnb button {
+      display: none.g;
+    }
   }
 }
