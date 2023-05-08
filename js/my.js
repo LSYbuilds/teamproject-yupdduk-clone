@@ -22,6 +22,7 @@ $(document).ready(function () {
     $(".mobile-nav-warp > .mobile-nav-menu").animate({ right: "-300px" }, 350);
   });
   let mnl = $(".mobile-nav-list > li");
+  let mnlf = $(".mobile-nav-list > li > a");
   let mll = $(".mobile-lnb-list");
   mnl.on("click", function () {
     let mnls = $(this).index();

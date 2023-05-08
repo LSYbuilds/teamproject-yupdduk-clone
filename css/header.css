@@ -292,6 +292,10 @@
   border-bottom: 1px solid #e1d6c7;
 }
 
+.mobile-font-color {
+  color: #de1d24 !important;
+}
+
 .mobile-lnb-list {
   display: none;
   width: 100%;
