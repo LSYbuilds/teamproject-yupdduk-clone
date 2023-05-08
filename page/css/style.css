@@ -27,7 +27,20 @@ body {
   color: #000;
   letter-spacing: -0.64px;
   word-break: keep-all;
+  padding-top: 300px;
 }
 /* 공통클래스 */
 
+#wrap {
+  display: flex;
+  flex-direction: column;
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 38px 45px 70px;
+}
 
+#wrap > .logo {
+  height: 19px;
+  background: url(../images/login-logo.png) no-repeat center;
+  padding-bottom: 20px;
+}
