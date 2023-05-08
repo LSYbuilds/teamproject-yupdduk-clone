@@ -441,18 +441,12 @@
   .footer-bottom-company {
     width: 540px;
   }
-  .footer-bottom-d {
-    width: 540px;
-  }
 }
 @media screen and (max-width: 576px) {
   .footer-row {
     width: 555px;
   }
   .footer-row-h {
-    width: 555px;
-  }
-  .footer-bottom-d {
     width: 555px;
   }
   .footer-bottom-company {
