@@ -372,6 +372,12 @@
     width: 80px;
     height: auto;
   }
+  .mobile-header-menu {
+    width: 100%;
+  }
+  .mobile-header-menu > .mobile-nav-call {
+    right: 0px;
+  }
 }
 
 @media screen and (max-width: 576px) {

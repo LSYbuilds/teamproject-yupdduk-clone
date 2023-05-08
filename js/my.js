@@ -26,7 +26,12 @@ $(document).ready(function () {
   let mll = $(".mobile-lnb-list");
   mnl.on("click", function () {
     let mnls = $(this).index();
-    mll.eq(mnls).slideToggle(300);
+    if (mll.is(":hidden")) {
+      mnl.not(mll.eq(mnls)).children(mnlf).removeClass("mobile-font-color");
+      mnl.eq(mnls).children(mnlf).addClass("mobile-font-color");
+      mll.not(mll.eq(mnls)).slideUp(300);
+      mll.eq(mnls).slideToggle(300);
+    }
   });
   let scroll_top = $(".scroll-top-btn");
   scroll_top.on("click", function () {

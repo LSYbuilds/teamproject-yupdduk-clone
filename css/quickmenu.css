@@ -10,6 +10,7 @@
   border: 1px solid#852123;
   background: #fff;
   font-size: 0.9em;
+  transition-duration: 0.3s;
 }
 
 .quickmenu > .quickmenu-list {
@@ -62,4 +63,10 @@
   background-size: 5px 5px;
   color: #fff;
   background: url(../images/flly_arrow_top.png) no-repeat center 8px;
+}
+
+@media screen and (max-width: 770px) {
+  .quickmenu {
+    right: -50%;
+  }
 }
