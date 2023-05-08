@@ -81,9 +81,9 @@
     width: 100%;
   }
   .main-slide-wrapper > div:first-child > a > img {
-    content: url("/images/m-slide1.jpg");
+    content: url(../images/m-slide1.jpg);
   }
   .main-slide-wrapper > div:nth-child(2) > a > img {
-    content: url("/images/m-slide2.png");
+    content: url(../images/m-slide2.png);
   }
 }

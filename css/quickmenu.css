@@ -35,21 +35,21 @@
 }
 
 .quickmenu-list > li:first-child > a {
-  background: url("/images/flyimg1.png") no-repeat center;
+  background: url(../images/flyimg1.png) no-repeat center;
   background-size: 53px 53px;
 }
 
 .quickmenu-list > li:nth-child(2) > a {
-  background: url("/images/flyimg2.png") no-repeat center 10px;
+  background: url(../images/flyimg2.png) no-repeat center 10px;
 }
 
 .quickmenu-list > li:nth-child(3) > a {
-  background: url("/images/flyimg3.png") no-repeat center 10px;
-  background: url("/images/flyimg2.png") no-repeat center 10px;
+  background: url(../images/flyimg3.png) no-repeat center 10px;
+  background: url(../images/flyimg2.png) no-repeat center 10px;
 }
 
 .quickmenu-list > li:nth-child(3) > a {
-  background: url("/images/flyimg3.png") no-repeat center 10px;
+  background: url(../images/flyimg3.png) no-repeat center 10px;
 }
 
 .quickmenu-list > li:nth-child(4) {
@@ -61,5 +61,5 @@
   padding-top: 5px;
   background-size: 5px 5px;
   color: #fff;
-  background: url("/images/flly_arrow_top.png") no-repeat center 8px;
+  background: url(../images/flly_arrow_top.png) no-repeat center 8px;
 }

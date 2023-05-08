@@ -4,7 +4,7 @@
   margin: 0 auto;
   max-width: 1903px;
   height: 855px;
-  background: url("/images/menu-background.jpg") no-repeat center;
+  background: url(../images/menu-background.jpg) no-repeat center;
 }
 .reco-menu-title {
   text-align: center;
@@ -47,7 +47,7 @@
 }
 
 .reco-menu-list > li:first-child > div {
-  background: url("/images/yupdduk.png") no-repeat;
+  background: url(../images/yupdduk.png) no-repeat;
   background-position: center bottom;
   background-size: 335px;
 }
@@ -111,17 +111,17 @@
   transition: all 0.7s ease-out;
 }
 .reco-menu-list > li:nth-child(2) > div {
-  background: url("/images/side.png") no-repeat;
+  background: url(../images/side.png) no-repeat;
   background-position: center bottom;
   background-size: 335px;
 }
 .reco-menu-list > li:nth-child(3) > div {
-  background: url("/images/topping.png") no-repeat;
+  background: url(../images/topping.png) no-repeat;
   background-position: center bottom;
   background-size: 335px;
 }
 .reco-menu-list > li:last-child > div {
-  background: url("/images/set.png") no-repeat;
+  background: url(../images/set.png) no-repeat;
   background-position: center bottom;
   background-size: 335px;
 }
