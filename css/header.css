@@ -292,6 +292,10 @@
   border-bottom: 1px solid #e1d6c7;
 }
 
+.mobile-font-color {
+  color: #de1d24 !important;
+}
+
 .mobile-lnb-list {
   display: none;
   width: 100%;
@@ -347,10 +351,33 @@
   }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 990px) {
+  .header > .inner {
+    max-width: 720px !important;
+  }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 770px) {
+  .header {
+    height: auto;
+  }
+  .header > .inner {
+    max-width: 540px !important;
+    height: 57px;
+  }
+  .header .logo > a {
+    margin-right: 16px;
+  }
+  .header .logo > a > img {
+    width: 80px;
+    height: auto;
+  }
+  .mobile-header-menu {
+    width: 100%;
+  }
+  .mobile-header-menu > .mobile-nav-call {
+    right: 0px;
+  }
 }
 
 @media screen and (max-width: 576px) {
