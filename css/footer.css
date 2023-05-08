@@ -129,11 +129,10 @@
   }
   .bis-sns-icon-t {
     display: flex;
+    justify-content: space-around;
   }
   .bis-sns-icon-t li {
     width: 150px;
-    display: inline-block;
-    justify-content: space-around;
   }
   .bis-sns-icon img {
     width: 40px;
@@ -176,7 +175,7 @@
     width: 540px;
   }
   .bis-sns-icon {
-    width: 510px;
+    width: 100%;
   }
   .bis-sns-icon-t li {
     width: 80px;
@@ -184,8 +183,8 @@
 }
 @media screen and (max-width: 576px) {
   .bis > .inner {
-    margin: 0;
-    width: 555px;
+    margin: 0 auto;
+    width: 100%;
     padding: 0 15px;
   }
   .bis-sns-icon-t li {
@@ -443,12 +442,12 @@
 }
 @media screen and (max-width: 576px) {
   .footer-row {
-    width: 555px;
+    width: 100%;
   }
   .footer-row-h {
-    width: 555px;
+    width: 100%;
   }
   .footer-bottom-company {
-    width: 555px;
+    width: 100%;
   }
 }
