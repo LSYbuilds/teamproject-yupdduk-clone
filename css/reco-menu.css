@@ -25,13 +25,14 @@
 .reco-menu-list {
   display: flex;
   justify-content: space-between;
-  width: 1400px;
+  max-width: 1400px;
   height: 430px;
   margin: 0 auto;
+  gap: 0px 37px;
 }
 
 .reco-menu-list > li {
-  width: 322px;
+  width: calc(100% / 4);
   height: 100%;
   background: #fff;
 }
@@ -41,8 +42,6 @@
   height: 100%;
 }
 .reco-menu-list li:hover {
-  width: 322px;
-  height: 100%;
   background: red;
 }
 
@@ -129,7 +128,8 @@
   display: none;
 }
 @media screen and (max-width: 1200px) {
-  .reco-menu-list, .reco-menu-title {
+  .reco-menu-list,
+  .reco-menu-title {
     display: none;
   }
   .reco-menu-evant {
@@ -164,7 +164,7 @@
     height: 1px;
     max-width: 16px;
   }
-  .reco-menu-mini-gnb{
+  .reco-menu-mini-gnb {
     width: 920px;
     height: 378.98px;
     display: flex;
@@ -182,7 +182,7 @@
     width: 307.17px;
     height: 307.17px;
     padding: 5px;
-    display: block; 
+    display: block;
   }
   .reco-menu-mini-gnb button {
     position: absolute;
@@ -193,7 +193,7 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background: #E01D24;
+    background: #e01d24;
     border: none;
     color: #fff;
     box-shadow: 0 0 5px #666;
@@ -208,7 +208,7 @@
   .reco-menu .inner {
     height: 405.8px;
   }
-  .reco-menu-mini-gnb{
+  .reco-menu-mini-gnb {
     width: 690px;
     height: 378.98px;
     display: flex;
@@ -234,7 +234,7 @@
   .reco-menu .inner {
     height: 364.8px;
   }
-  .reco-menu-mini-gnb{
+  .reco-menu-mini-gnb {
     width: 520px;
     height: 378.98px;
     display: flex;
@@ -260,7 +260,7 @@
   .reco-menu .inner {
     height: 369.13px;
   }
-  .reco-menu-mini-gnb{
+  .reco-menu-mini-gnb {
     width: 100%;
     height: 378.98px;
     display: flex;
