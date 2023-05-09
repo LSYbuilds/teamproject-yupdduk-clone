@@ -1,10 +1,7 @@
 $(document).ready(function () {
-  $("a").click(function (event) {
-    event.preventDefault();
-    var target = $($(this).attr("href"));
-    $("html, body").animate({ scrollTop: target.offset().top }, 500);
-  });
-
+  function openPopup() {
+    window.open("./page/login.html", "popup", "width=500,height=500");
+  }
   $(".nav-area").hover(
     function () {
       $(".sub-menu").slideDown(120);
