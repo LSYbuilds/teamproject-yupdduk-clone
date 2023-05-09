@@ -62,3 +62,111 @@ body {
 .note > p:first-child {
   margin-bottom: 10px;
 }
+
+.login_warp > .login_box {
+  width: 100%;
+}
+
+.login_box > input {
+  margin-bottom: 8px;
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid rgb(102, 102, 102, 0.5);
+}
+
+.login_warp > .save-mail {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.button_box > .login_btn {
+  width: 100%;
+  height: 58px;
+  text-align: center;
+  background: #e21f26;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.account_menu {
+  margin-top: 20px;
+  width: 100%;
+  height: 100px;
+}
+
+.account_menu > .account_list {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 13px;
+  letter-spacing: -0.5px;
+  gap: 0px 10px;
+  color: #666;
+}
+
+.account_menu > .or {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 25px 0px 25px 0px;
+  text-align: center;
+  font-size: 10px;
+}
+.or::before {
+  position: absolute;
+  top: 50%;
+  transform: translateX(-50%);
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: rgb(0, 0, 0, 0.2);
+}
+
+.or > p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  width: 30px;
+  height: auto;
+  background: #fff;
+  color: #5f5f5f;
+  z-index: 10;
+}
+
+.login_item_warp {
+  width: 100%;
+  height: auto;
+}
+
+.login_item_warp > .login_item_list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0px;
+}
+
+.login_item_list > li {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid #dcdcdc;
+}
+
+.login_item_list > li:first-child {
+  border: 1px solid #e21f26;
+}
+
+.login_item_list > li > a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  line-height: 50px;
+  font-size: 16px;
+}
