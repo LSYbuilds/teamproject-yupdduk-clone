@@ -1,7 +1,7 @@
 $(document).ready(function () {
-  function openPopup() {
-    window.open("./page/login.html", "popup", "width=500,height=500");
-  }
+  // function openPopup() {
+  //   window.open("./page/login.html", "popup", "width=500,height=500");
+  // }
   $(".nav-area").hover(
     function () {
       $(".sub-menu").slideDown(120);
@@ -10,6 +10,7 @@ $(document).ready(function () {
       $(".sub-menu").slideUp(120);
     }
   );
+
   $(".mobile-nav-call").on("click", function () {
     $(".mobile-nav-warp").fadeIn(300);
     $(".mobile-nav-warp > .mobile-nav-menu").animate({ right: "0px" }, 350);
@@ -18,6 +19,13 @@ $(document).ready(function () {
     $(".mobile-nav-warp").fadeOut(300);
     $(".mobile-nav-warp > .mobile-nav-menu").animate({ right: "-300px" }, 350);
   });
+
+  $(window).resize(function () {
+    if (window.innerWidth > 1200) {
+      $(".mobile-nav-warp").hide();
+    }
+  });
+
   let mnl = $(".mobile-nav-list > li");
   let mnlf = $(".mobile-nav-list > li > a");
   let mll = $(".mobile-lnb-list");

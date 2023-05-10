@@ -339,6 +339,7 @@
   height: 23px;
   margin-right: 5px;
 }
+
 @media screen and (max-width: 1200px) {
   .header > .inner {
     max-width: 960px !important;
