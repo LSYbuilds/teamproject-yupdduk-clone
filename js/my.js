@@ -4,10 +4,10 @@ $(document).ready(function () {
   // }
   $(".nav-area").hover(
     function () {
-      $(".sub-menu").slideDown(120);
+      $(".sub-menu").stop().slideDown(120);
     },
     function () {
-      $(".sub-menu").slideUp(120);
+      $(".sub-menu").stop().slideUp(120);
     }
   );
 
