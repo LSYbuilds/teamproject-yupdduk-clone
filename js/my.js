@@ -2,30 +2,46 @@ $(document).ready(function () {
   // function openPopup() {
   //   window.open("./page/login.html", "popup", "width=500,height=500");
   // }
-  $(".nav-area").hover(
-    function () {
-      $(".sub-menu").stop().slideDown(120);
-    },
-    function () {
-      $(".sub-menu").stop().slideUp(120);
-    }
-  );
+  slidemenu();
+  mobilemenu();
+  rezise();
 
-  $(".mobile-nav-call").on("click", function () {
-    $(".mobile-nav-warp").fadeIn(300);
-    $(".mobile-nav-warp > .mobile-nav-menu").animate({ right: "0px" }, 350);
-  });
-  $(".mobile-nav-bg").on("click", function () {
-    $(".mobile-nav-warp").fadeOut(300);
-    $(".mobile-nav-warp > .mobile-nav-menu").animate({ right: "-300px" }, 350);
-  });
+  function slidemenu() {
+    $(".nav-area").hover(
+      function () {
+        $(".sub-menu").stop().slideDown(120);
+      },
+      function () {
+        $(".sub-menu").stop().slideUp(120);
+      }
+    );
+  }
 
-  $(window).resize(function () {
-    if (window.innerWidth > 1200) {
-      $(".mobile-nav-warp").hide();
-    }
-  });
+  function mobilemenu() {
+    $(".mobile-nav-call").on("click", function () {
+      $(".mobile-nav-warp").fadeIn(300);
+      $(".mobile-nav-warp > .mobile-nav-menu").animate({ right: "0px" }, 350);
+    });
+    $(".mobile-nav-bg").on("click", function () {
+      $(".mobile-nav-warp").fadeOut(300);
+      $(".mobile-nav-warp > .mobile-nav-menu").animate(
+        { right: "-300px" },
+        350
+      );
+    });
+  }
 
+  function rezise() {
+    $(window).resize(function () {
+      if (window.innerWidth > 1200) {
+        $(".mobile-nav-warp").hide();
+      }
+    });
+  }
+  function mobilemenuList ()
+  {
+    
+  }
   let mnl = $(".mobile-nav-list > li");
   let mnlf = $(".mobile-nav-list > li > a");
   let mll = $(".mobile-lnb-list");

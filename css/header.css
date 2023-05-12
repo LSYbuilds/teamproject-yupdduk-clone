@@ -323,6 +323,10 @@
   color: #fff;
 }
 
+.mobile-nav-list > li:last-child > a {
+  padding-left: 0px;
+}
+
 .mobile-gift-card {
   background-color: #faebd7;
   padding: 10px;
@@ -339,6 +343,27 @@
 .mobile-gift-card > img {
   height: 23px;
   margin-right: 5px;
+}
+
+.mobile-sns-link {
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+  display: flex;
+  width: auto;
+  height: auto;
+}
+
+.mobile-sns-link > li {
+  margin-right: 10px;
+}
+
+.mobile-sns-link > li > a {
+  display: block;
+}
+.mobile-sns-link > li > a > img {
+  width: 30px;
+  height: 30px;
 }
 
 @media screen and (max-width: 1200px) {
