@@ -5,6 +5,7 @@ $(document).ready(function () {
   slidemenu();
   mobilemenu();
   rezise();
+  popup();
 
   function slidemenu() {
     $(".nav-area").hover(
@@ -33,15 +34,19 @@ $(document).ready(function () {
 
   function rezise() {
     $(window).resize(function () {
-      if (window.innerWidth > 1200) {
-        $(".mobile-nav-warp").hide();
-      }
+      window.innerWidth > 1200 ? $(".mobile-nav-warp").hide : null;
     });
   }
-  function mobilemenuList ()
-  {
-    
-  }
+
+  // 만약 저게 안된다면 이걸 써라
+  // function rezise() {
+  //   $(window).resize(function () {
+  //     if (window.innerWidth > 1200) {
+  //       $(".mobile-nav-warp").hide();
+  //     }
+  //   });
+  // }
+  function mobilemenuList() {}
   let mnl = $(".mobile-nav-list > li");
   let mnlf = $(".mobile-nav-list > li > a");
   let mll = $(".mobile-lnb-list");
@@ -59,3 +64,18 @@ $(document).ready(function () {
     $("html, body").animate({ scrollTop: 0 }, 500);
   });
 });
+
+function popup() {
+  $(".popup-close").on("click", function () {
+    $(".popup_notice").fadeOut(300);
+  });
+}
+
+// let mobilemenuList = () => {
+//   let mnl = document.querySelectorAll(".mobile-nav-list > li");
+//   mnl.forEach((item) => {
+//     item.addEventListener("click", () => {
+
+//     })
+//   })
+// }
