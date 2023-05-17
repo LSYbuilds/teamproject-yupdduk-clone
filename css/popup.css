@@ -22,7 +22,7 @@
   border-radius: 30px;
   padding: 20px;
   overflow: hidden;
-  background: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.9);
   box-shadow: 3px 3px 10px black;
 }
 
@@ -39,9 +39,25 @@
   display: block;
   width: 100%;
   height: auto;
-  font-size: 21px;
+  font-size: 18px;
   text-align: center;
   line-height: 30px;
+}
+
+.project-info {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px 0px;
+  height: auto;
+}
+
+.project-info > p {
+  text-align: center;
+}
+
+.project-info > p > a {
+  color: rgb(81, 130, 149);
 }
 
 .popup_inner > .popup-close {

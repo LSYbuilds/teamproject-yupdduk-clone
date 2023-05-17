@@ -69,6 +69,22 @@ function popup() {
   $(".popup-close").on("click", function () {
     $(".popup_notice").fadeOut(300);
   });
+
+  // function makeNoticeList() {
+  //   let noticeHtml = ``;
+  //   for (let i = 0; i < noticeData.notice_total; i++) {
+  //     let obj = noticeData[`notice_1${i + 1}`];
+  //     let temp = `
+  //     <li>
+  //       <span class="notice-notice-list">${obj.date}</span>
+  //       ${obj.text}
+  //     </li>
+  //     `;
+  //     noticeHtml += temp;
+  //   }
+  //   let noticeWrapper = document.querySelector("notice-notice > li");
+  //   noticeWrapper.innerHTML = noticeHtml;
+  // }
 }
 
 // let mobilemenuList = () => {
