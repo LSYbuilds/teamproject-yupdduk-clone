@@ -10,15 +10,11 @@
   </h3>
 </div> 
 <div align="center"> 
- 2차 백앤드+프론트엔드 협업 프로젝트 CampingSmore입니다. <br/>
-  캠핑을 즐겨 이용하는 사람들이 간편하게 캠핑음식을 <br/>주문 할 수 있도록 제작하였습니다.
+ 1차 퍼플리싱 프로젝트 : 동대문 엽기떡볶이 클론코딩 입니다. <br/>
+  기존의 동대문 엽기떡볶이 홈페이지 사이트를 참고하여 클론코딩 개발을 진행하였습니다.
 </div>
 <br/>
 <br/>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/LSYbuilds/campingsmore/main/public/image/Project.gif" />
-</div>
 
 
 <br/>
@@ -29,12 +25,10 @@
 </h3>
 </div>
 
+
 <div align="center">
   - [GitHub](https://github.com/devdong9897/campingsmore) <br/>
-  - [Notion](https://www.notion.so/TEAM-PROJECT3-c8700645684148ebbb54cd13365ee8cf)) <br/>
-  - [Figma] (https://www.figma.com/file/gBaoqSAs24bzZh6w4ad8tp/Untitled?type=design&node-id=0-1&mode=design&t=UrIUrZ3CI4y7xys5-0) <br/>
-  - 프로젝트 시연영상 - <br/>
-  - [Youtube] (https://youtu.be/t1SAFgNBxOI)
+  - [Notion](https://www.notion.so/TEAM-PROJECT-a1bf8f474ed440e19f468becc80307c6)f) <br/>
 </div>
 
 
@@ -50,13 +44,7 @@
     <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white"/>
     <img src="https://img.shields.io/badge/css3-1572B6?style=flat&logo=css3&logoColor=white"/>
     <img src="https://img.shields.io/badge/javascript-F7DF1E?style=flat&logo=javascript&logoColor=white"/>
-    <img src="https://img.shields.io/badge/React Router-CA4245?style=flat&logo=React Router&logoColor=white"/>
-    <img src="https://img.shields.io/badge/sass-CC6699?style=flat&logo=sass&logoColor=white"/>
     <img src="https://img.shields.io/badge/FontAwesome-528DD7?style=flat&logo=FontAwesome&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Axios-5A29E4?style=flat&logo=Axios&logoColor=white"/> <br/>
-    <img src="https://img.shields.io/badge/Redux-764ABC?style=flat&logo=Redux&logoColor=white"/
-    <img src="https://img.shields.io/badge/ESLint-4B32C3?style=flat&logo=ESLint&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Prettier-F7B93E?style=flat&logo=Prettier&logoColor=white"/>
 
 </div>
 <br/>
